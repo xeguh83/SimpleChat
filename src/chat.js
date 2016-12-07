@@ -2,7 +2,7 @@
  * Created by например Андрей on 04.12.2016.
  */
 // создать подключение
-var socket = new WebSocket("ws://localhost:8283");
+var socket = new WebSocket("ws://localhost:80");
 
 // отправить сообщение из формы publish
 document.forms.publish.onsubmit = function() {
